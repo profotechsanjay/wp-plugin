@@ -1,0 +1,425 @@
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Roboto', sans-serif; padding:50px 0; float:left; width:100%; background: #eff3f8;
+}
+p {
+	color: #585858;
+}
+ul {
+	margin: 0; display:block;
+	list-style: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+h1, h2, h3, h4 , h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/********form ********/ 
+
+form.bill_form {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.bill_sec {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-bottom: 30px;
+  padding: 20px 0;
+}
+.bill_sec h5 {
+  border-bottom: 1px solid #ddd;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 20px 20px;
+  text-transform: uppercase;
+}
+.bill_sec ul {
+  display: block;
+  list-style: outside none none;
+  margin: 0;
+  padding: 20px;
+}
+.bill_sec ul li {
+  display: block;
+  margin:0 0 20px; padding:0;
+}
+.bill_sec li label {
+  color: #000;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+.bill_sec input, .bill_sec select {
+  border: 1px solid #d4d3d3;
+  border-radius: 3px;
+  display: inline-block;
+  height: 35px;
+  max-width: 100%;
+  padding: 0 7px;
+  width: 270px;
+}
+.pay_div ul li:nth-child(4) input {
+  display: inline-block;
+  margin-right: 4px;
+  width: 80px;
+}
+.bill_sec li img {
+  display: inline-block;
+  margin-left: 10px;
+}
+.pay_div select {
+  display: inline-block;
+  width: 87%;
+}
+.bill_sec.pay_div li a {
+  display: inline-block;
+  font-size: 11px;
+}
+.clear{clear:both;}
+.hd_text {
+  display: block;
+  padding: 20px 20px 0;
+}
+.hd_text > span {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.hd_text h3 {
+  color: #000;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 3px 0 8px;
+}
+
+.hd_text a {
+  background: #f96903 none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 4px 8px;
+}
+.bill_sec.plan_div ul {
+  padding: 0 25px;
+}
+.bill_sec.plan_div li {
+  background: rgba(0, 0, 0, 0) url("../images/rgt_icn.png") no-repeat scroll left center;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0;
+  padding-left: 20px;
+}
+.bill_sec.plan_div li:nth-child(7) {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  padding: 6px 0;
+}
+.bill_sec.plan_div li label {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+}
+.bill_sec.plan_div li input {
+  display: inline-block;
+  height: 30px;
+  width: 180px;
+}
+.detail_div input, .detail_div select {
+  width: 100%;
+}
+.bill_sec.pay_div, .bill_sec.pay_div ul {
+  padding-bottom: 0;
+}
+.bill_sec.detail_div ul li {
+  padding: 0 15px;
+}
+.total_div {
+  display: block;
+  padding: 3px 20px;
+}
+.total_div span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+.total_div strong {
+  color: #767676;
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+}
+.bill_sec.detail_div {
+  margin-bottom: 15px;
+  padding-bottom: 0;
+}
+.btn_div {
+  display: block;
+  text-align: right;
+  width: 100%;
+}
+.btn_div > a {
+  background: #000;
+  border: medium none;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 5px 16px;
+  text-transform: uppercase;
+}
+.btn_div a:first-child {
+  background: #4caf50 none repeat scroll 0 0;
+}
+
+.detail_div select::-webkit-input-option {
+  color: #a4a4a4;
+}
+.bill_sec.plan_div input.check_availability {
+  background: none repeat scroll 0 0 #f96903;
+  border: medium none;
+  color: #fff;
+  float: right;
+  font-weight: 500;
+  width: 55px;
+}
+input#location_payment_submit {
+  background: none repeat scroll 0 0 #4caf50;
+  border: medium none;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 7px 16px;
+  text-transform: uppercase;
+}
+.month_input, .year_input {
+  padding-left: 0;
+}
+label.hid_txt {
+  visibility: hidden;
+}
+.reset_button, .reset_button:hover {
+  background: none repeat scroll 0 0 #000;
+  border: medium none;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 5px 16px;
+  text-transform: uppercase;
+}
+.hd_text p.change_package {
+  background: none repeat scroll 0 0 #f96903;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 4px 8px;
+}
+p.check_availability {
+  background: #f96903;border-radius: 3px;color: #fff;cursor: pointer;display: inline-block;float: right;font-size: 13px;font-weight: 500;padding: 4px 8px;
+}
+
+
+/********** media *********/
+
+
+@media (min-width:1180px){
+.bill_sec.pay_div {min-height: 400px;}	
+}
+
+@media (min-width:992px) and (max-width:1179px){
+ .bill_sec.pay_div {min-height: 427px;}	   
+}
+
+
+@media (max-width:767px){
+.bill_sec input {width: 100%;}
+.bill_sec li img {margin-left: 0px; margin-top: 7px;}	
+label.hid_txt {display: none !important;}
+}
+
+
+
+
+
+@media (min-width:320px) and (max-width:479px){
+.bill_sec.plan_div li input {width: 135px;}
+.total_div {padding: 15px 20px 0;}
+.total_div span {font-size: 14px;}
+.total_div strong {font-size: 16px;}
+}
+
+/******** plan sec ********/ 
+
+.plan_sec{
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+.plan_div {
+  display: block;
+}
+.plan {
+  background: #f3f3f3 none repeat scroll 0 0;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  display: block;
+  text-align: center;
+}
+.plan_hd {
+  background: #337ab7 none repeat scroll 0 0;
+  display: block;
+  padding: 25px;
+}
+span.title {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+}
+.plan_border {
+  background: #fff none repeat scroll 0 0;
+  display: inline-block;
+  height: 3px;
+  margin: auto;
+  width: 50px;
+}
+span.price {
+  color: #fff;
+  display: block;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+span.price edge {
+  display: inline-block;
+  font-size: 18px;
+}
+span.month {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+.plan_mid {
+  display: block;
+  padding: 15px 25px 10px;
+}
+.plan_mid ul {
+  display: block;
+  list-style: outside none none;
+  margin: 0;
+}
+.plan_mid ul li {
+  border-bottom: 1px solid #ddd;
+  color: #363636;
+  display: block;
+  font-size: 12px;
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+  text-align: center;
+}
+.plan_mid ul li:last-child {
+  border-bottom: medium none;
+}
+.plan_btn {
+  display: block;
+  padding: 0 0 25px;
+  text-align: center;
+  width: 100%;
+}
+.plan_btn input[type="submit"] {
+  background: #1f67a6 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 7px 25px;
+  text-transform: uppercase;
+  width: auto;
+}
+.plan_btn p {
+  color: #000;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+}
+.plan_btn p span {
+  color: #337ab7;
+  display: inline-block;
+}
+.plan_div .col-sm-12.col-sm-4.col-md-4:nth-child(2) {
+  padding: 0 5px;
+}
+.plan.plan_2 .plan_hd {
+  background: #000 none repeat scroll 0 0;
+}
+.plan.plan_2 .plan_btn input[type="submit"] {
+  background: #7c7a77;
+}
+.plan.plan_3 .plan_hd{background:#e09017;}
+.clear{clear:both;}
+
+.plan_div > .col-md-5{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+
+/********** media *********/
+
+@media (min-width:992px){
+
+}
+
+@media (min-width:768px){
+.plan_div .col-sm-12.col-sm-4.col-md-4:nth-child(2) {
+  //margin-top: -15px;
+}	
+.plan_sec {
+  padding: 45px;
+  text-align: center;
+}
+.plan.plan_2 .plan_hd, .plan.plan_1 .plan_hd {
+  padding: 40px 0;
+}
+}
+
+@media (max-width:767px){
+.plan_div .col-sm-12.col-sm-4.col-md-4:nth-child(2) {
+  margin: 30px 0; padding: 0 15px;
+}
+}
+
+
+@media (min-width:320px) and (max-width:479px){
+
+}

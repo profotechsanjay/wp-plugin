@@ -1,0 +1,12 @@
+ALTER TABLE seo_history ADD INDEX idx_userid (MCCUserId);
+ALTER TABLE seo_history ADD INDEX idx_keyword (Keyword);
+ALTER TABLE seo_history ADD INDEX idx_updat (rank_update_date);
+ALTER TABLE seo ADD INDEX idx_userid (MCCUserId);
+ALTER TABLE seo ADD INDEX idx_keyword (Keyword);
+ALTER TABLE seo ADD INDEX idx_updat (rank_update_date);
+ALTER TABLE competitor_report_history ADD INDEX idx_userid (user_id);
+ALTER TABLE competitor_report_history ADD INDEX idx_keyword (keyword);
+ALTER TABLE competitor_report_history ADD INDEX idx_updat (rank_date);
+ALTER TABLE competitor_report ADD INDEX idx_userid (user_id);
+ALTER TABLE competitor_report ADD INDEX idx_keyword (keyword);
+ALTER TABLE competitor_report ADD INDEX idx_updat (rank_date);

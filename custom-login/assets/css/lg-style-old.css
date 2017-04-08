@@ -1,0 +1,212 @@
+body.processing:before{
+    background: rgba(0, 0, 0, 0.55) url('../images/loading.gif') no-repeat 50% 50%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    content: "";
+    z-index: 100000000000000;    
+    height: 100%;
+    width: 100%;      
+} 
+body.processing {    
+    position: relative;    
+}
+#agencylogin label.error{ color:red; }
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Feb, 2017, 11:59:24 AM
+    Author     : rudra
+*/
+
+
+
+
+#agencylogin img#enf-logo{width: 100%;padding: 1px 2px 16px;}
+
+.mont-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+form.form-horizontal.app-form h2{
+    font-size: 26px;
+    font-weight: bold;
+}
+body.processing:before{
+    background: rgba(0, 0, 0, 0.55) url('../images/loading.gif') no-repeat 50% 50%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    content: "";
+    z-index: 100000000000000;    
+    height: 100%;
+    width: 100%;      
+} 
+body.processing {    
+    position: relative;    
+}
+.borderdvcourse{
+    margin-bottom: 15px;
+    background: #fff;
+    min-height: 220px;
+    border: 1px solid #ddd;
+}
+.innerpanel {
+    max-height: 120px;
+}
+.lowerpanel {
+    padding: 5px 10px;
+}
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+
+/*common-css*/
+.hundredPercent {
+    width: 100%;
+}
+
+.upper-text{text-transform: uppercase;}
+
+.pad_left_0 {
+    padding-left: 0px !important;
+}
+
+.pad_right_0 {
+    padding-right: 0px !important;
+}
+.pad_top_10 {
+    padding-top: 10px !important;
+}
+.pad_bottom_10 {
+    padding-bottom: 10px !important;
+}
+
+.btn{border-radius: 4px !important;}
+
+
+/*login-page*/
+*{margin:0; padding: 0; box-sizing: border-box;}
+
+body,
+html {
+    min-height: 100vh;
+}
+
+.page-header .page-header-menu, .page-footer{display: none;}
+
+
+#primary {
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+#primary:before{
+    vertical-align: middle;
+    display: inline-block;
+}
+#primary:before{
+    content: '';
+    height: 100vh;
+    width: 1px;
+}
+#primary {
+    background: #2985cc;
+}
+
+
+#primary header.entry-header{display: none;}
+
+
+#content, #content:before {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+
+#content {
+    max-width: 400px;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+}
+
+
+.container.signup {
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+}
+
+.container.signup > .panel{margin-bottom:0px;}
+.container.signup .form-horizontal .form-group{ margin-left: 0px;  margin-right: 0px; }
+.signup .panel {
+    border: none;
+}
+
+.entry-content .signup .panel h2 {
+    font-weight: 400;
+}
+.signup .input-signup-text input.form-control {
+    border:1px solid rgba(0,0,0,0.1);
+    height: 45px;
+    padding: 6px 12px;
+    color: #555;
+    font-weight: 600;
+    
+    border-radius: 4px !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+}
+.signup button:hover {
+    background: #27a4b0;
+    border: 1px solid #27a4b0;
+}
+article#post-2979 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.availability a {
+    
+    display: block;
+
+}
+.availability {
+    padding: 0px;
+    display: block;
+}
+.already-accout {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.already-accout p {
+    margin: 0px;
+    color: #fff;
+}
+.already-accout p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.section-div .error{width:100%; color: red; text-align: left; font-size: 80%; margin-bottom: 0;}
+
+
+.signup .input-signup-text input.form-control.error{border: 1px solid red;}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}

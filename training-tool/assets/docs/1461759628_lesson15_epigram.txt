@@ -1,0 +1,10 @@
+Server :	u81120186.1and1-data.host
+Protocol :	SFTP
+Port :	22
+User :	u81120186 (or another user that you have created)
+
+
+FTP:
+
+u81120186-abhi
+rudra@1234#$

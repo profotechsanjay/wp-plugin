@@ -1,0 +1,1 @@
+<input type="hidden" id="agency_id" name="agency_id" value="<?php echo $agency_id; ?>" />

@@ -1,0 +1,13 @@
+body.processing:before{
+     background:rgba(255, 255, 255, 0.6) url("../images/loader.gif") no-repeat scroll 50% 50%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    content: "";
+    z-index: 100000000000000;    
+    height: 100%;
+    width: 100%;      
+} 
+body.processing {    
+    position: relative;    
+}
